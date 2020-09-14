@@ -8,17 +8,3 @@ $(document).ready(function(){
 	})
 
 });
-
-window.onscroll = function (){
-	on_scroll();
-};
-
-function on_scroll(){
-	if (window.pageYOffset) {
-     var my_nav = document.getElementById("my-nav");
-     my_nav.style.backgroundColor = "red !important";
-  } else {
-     	var my_nav = document.getElementById("my-nav");
-     my_nav.style.background = "transparent !important";
-  }
-}

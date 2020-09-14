@@ -6,6 +6,136 @@
 	box-sizing: border-box;
 }
 
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+header {
+      width: 100%;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: black;
+      font-weight: bold;
+      font-size: 25px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+      z-index: 1000;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #5325A9;
+}
+
+  nav.black .logo{
+           color: #fff;
+      }
+
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none !important;
+      color: #fff;
+      font-size: 16px;
+}
+
+nav ul li a:hover{
+	color: #323232;
+	font-weight: bold;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background:#5325A9;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #5325A9;
+      }
+
+      nav.black ul {
+            background: #5325A9;
+      }
+
+      nav.black .logo{
+           color: #fff;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
+
+
 
 .right-header{
 	background-image: url('../img/portfolio_background2.jpg');
@@ -68,7 +198,7 @@
 }
 
 .nav-list li a:hover{
-	color: red;
+	color: #5729B0 !important;
 }
 
 .about_section{
@@ -91,7 +221,6 @@
 
 #card{
 	position: relative;
-	z-index: 1000;
 	width: 400px;
 	margin-right: 100px; 
 	padding: 10px 18px;
@@ -110,4 +239,11 @@
 .prev-btn i, .next-btn i{
 	margin-top: 10px;
 	font-size: 20px;
+}
+
+.resume-con{
+	width: 100%;
+	padding: 30px;
+	background: #0A1132;
+	overflow: hidden;
 }
