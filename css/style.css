@@ -19,6 +19,7 @@ body {
 
 header {
       width: 100%;
+
 }
 
 .content {
@@ -62,6 +63,7 @@ nav ul {
 
 nav.black ul {
       background: #5325A9;
+      box-shadow: 0px 4px 6px 0px #323232;
 }
 
   nav.black .logo{
@@ -71,7 +73,7 @@ nav.black ul {
 
 nav ul li {
       display: inline-block;
-      padding: 16px 40px;;
+      padding: 10px 40px;;
 }
 
 nav ul li a {
@@ -112,6 +114,7 @@ nav ul li a:hover{
 
       nav.black ul {
             background: #5325A9;
+            box-shadow: 0px 4px 6px 0px #323232;
       }
 
       nav.black .logo{
@@ -244,6 +247,62 @@ nav ul li a:hover{
 .resume-con{
 	width: 100%;
 	padding: 30px;
-	background: #0A1132;
+	background-image: url('../img/resume_banner.jpg');
+	background-size: cover;
 	overflow: hidden;
+}
+
+.skill-section{
+	width: 100%;
+}
+
+@keyframes progress{
+	from {width: 0px;}
+	to {width: 70%;}
+}
+
+
+.my-progress-bar{
+	width: 70%;
+	animation-name: progress;
+	animation-duration: 2s;
+	background: #5729B0 !important;
+}
+
+
+.form-btn{
+	border-radius: 40px;
+	background: #fff;
+	border: none;
+	color:blue;
+	width: 200px;
+	height: 40px;
+	padding: 5px 8px;
+	border: none;
+	user-select: none;
+}
+
+
+.circle-con{
+	width: 160px;
+	height: 160px;
+	border: 1px solid red;
+	border-radius: 50%;
+	background: #f5f5f5;
+}
+
+.circle-under{
+	width: 140px;
+	height: 140px;
+	border: 1px solid red;
+	
+	border-radius: 50%;
+	background: #fff;
+}
+
+.circle-progress{
+	width: 10px;
+	height: 10px;
+	background: red;
+	border-radius: 50%;
 }
