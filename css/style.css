@@ -67,7 +67,11 @@ nav.black ul {
 }
 
   nav.black .logo{
-           color: #fff;
+           color: #fff !important;
+      }
+
+      nav.black ul li a{
+      	color: #fff !important;
       }
 
 
