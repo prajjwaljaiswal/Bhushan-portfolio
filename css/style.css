@@ -34,7 +34,7 @@ header {
       line-height: 60px;
       position: fixed;
       float: left;
-      margin: 16px 46px;
+      margin: 6px 46px;
       color: black;
       font-weight: bold;
       font-size: 25px;
@@ -73,7 +73,7 @@ nav.black ul {
 
 nav ul li {
       display: inline-block;
-      padding: 10px 40px;;
+      padding: 0px 40px;;
 }
 
 nav ul li a {
