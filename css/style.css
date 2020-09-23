@@ -48,6 +48,7 @@ nav {
       z-index: 1000;
       background: #fff;
       box-shadow: 0px 0px 2px 0px #323232;
+      transition: 1s;
 }
 
 nav ul {
@@ -61,6 +62,10 @@ nav ul {
       margin: 0;
       padding-right: 40px;
       transition: 1s;
+}
+
+nav.black{
+	top: 120px;
 }
 
 nav.black ul {
