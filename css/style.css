@@ -64,9 +64,7 @@ nav ul {
       transition: 1s;
 }
 
-nav.black{
-	top: 120px;
-}
+
 
 nav.black ul {
       background: #5325A9;
